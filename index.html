@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cat wif katana | CATANA</title>
+  <meta name="description" content="Tiny paws. Sharp katana. CATANA is a Solana memecoin: a samurai cat standing strong against all odds.">
+  <meta name="theme-color" content="#090b10">
+  <link rel="icon" href="logo.png" type="image/png">
+  <meta property="og:title" content="cat wif katana">
+  <meta property="og:description" content="Tiny paws. Sharp katana. A samurai cat standing strong against all odds.">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shojumaru&family=Yuji+Syuku&family=Zen+Old+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="fx" aria-hidden="true"></canvas>
+  <div class="pointer-glow" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#hero">
+      <img src="logo.png" alt="" width="44" height="44">
+      <span>CATANA</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+      <span class="sr">Menu</span>
+    </button>
+    <nav id="nav-links" class="nav-links">
+      <a href="#about">About</a>
+      <a href="#howtobuy">How to Buy</a>
+      <a href="#chart">Chart</a>
+      <a href="#join">Join</a>
+    </nav>
+    <a class="nav-x" href="https://x.com/CatanaCatSol" target="_blank" rel="noopener noreferrer" aria-label="CATANA on X">
+      <img src="assets/icons/x.svg" alt="" width="18" height="18">
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-sky" aria-hidden="true"></div>
+      <div class="hero-mist mist-a" aria-hidden="true"></div>
+      <div class="hero-mist mist-b" aria-hidden="true"></div>
+      <div class="slash" aria-hidden="true"></div>
+      <p class="side-mark" aria-hidden="true">刀 猫 桜</p>
+
+      <div class="hero-layout">
+        <div class="hero-copy reveal">
+          <p class="kicker"><img src="assets/icons/solana.svg" alt="" width="18" height="18"> Solana memecoin</p>
+          <h1>
+            <span class="line-soft">cat wif</span>
+            <span class="line-strong">katana</span>
+          </h1>
+          <p class="symbol">CATANA</p>
+          <p class="tagline">Tiny paws. Sharp katana. A samurai cat standing strong against all odds.</p>
+          <div class="cta-row">
+            <a class="btn btn-gold" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/pumpswap.svg" alt="" width="22" height="22">
+              PumpSwap
+            </a>
+            <a class="btn btn-line" href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/dexscreener.svg" alt="" width="20" height="20">
+              DexScreener
+            </a>
+            <a class="btn btn-line" href="https://x.com/CatanaCatSol" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/x.svg" alt="" width="16" height="16">
+              Follow
+            </a>
+          </div>
+        </div>
+
+        <div class="crest reveal">
+          <div class="ring ring-a" aria-hidden="true"></div>
+          <div class="ring ring-b" aria-hidden="true"></div>
+          <img src="logo.png" alt="A kitten in red and black samurai armor, pink blossom in its fur, holding a glowing katana" width="1254" height="1254">
+        </div>
+      </div>
+
+      <svg class="mountains" viewBox="0 0 1440 180" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 140 L80 96 L150 122 L240 70 L330 118 L420 48 L520 110 L640 36 L760 100 L860 58 L980 112 L1100 44 L1220 96 L1320 62 L1440 108 L1440 180 L0 180 Z" fill="#100c0e"/>
+        <path d="M0 160 L120 120 L220 148 L340 102 L460 150 L600 90 L740 146 L900 108 L1040 152 L1200 96 L1440 140 L1440 180 L0 180 Z" fill="#07080c"/>
+      </svg>
+    </section>
+
+    <div class="lacing" aria-hidden="true"></div>
+    <div class="obi" aria-hidden="true">
+      <div class="obi-track">
+        <span>CATANA</span><span>刀</span><span>cat wif katana</span><span>桜</span>
+        <span>CATANA</span><span>刀</span><span>cat wif katana</span><span>桜</span>
+        <span>CATANA</span><span>刀</span><span>cat wif katana</span><span>桜</span>
+        <span>CATANA</span><span>刀</span><span>cat wif katana</span><span>桜</span>
+      </div>
+    </div>
+    <div class="lacing" aria-hidden="true"></div>
+
+    <section class="section" id="about">
+      <div class="section-head reveal">
+        <p class="kicker">The stance</p>
+        <h2>About</h2>
+      </div>
+      <div class="about-grid">
+        <article class="plate plate-story reveal">
+          <p class="seal">猫</p>
+          <p>CATANA is a Solana memecoin with a quiet kind of nerve. A kitten in lacquered armor, one blossom caught in gold fur, a katana held level against the dusk.</p>
+          <p>The coin is small on purpose. The stance is not. When the noise swells, the cat keeps both paws on the hilt.</p>
+        </article>
+        <div class="tenets">
+          <article class="plate reveal">
+            <h3>Tiny paws</h3>
+            <p>Light enough to move, stubborn enough to stay. CATANA does not need a parade to hold a line.</p>
+          </article>
+          <article class="plate reveal">
+            <h3>Sharp katana</h3>
+            <p>One blade, one ticker, one clean cut through the clutter. The edge is the point.</p>
+          </article>
+          <article class="plate reveal">
+            <h3>Standing strong</h3>
+            <p>Dusk sky, red cord, gold dust. Odds can shout. The samurai cat is still standing.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section buy" id="howtobuy">
+      <div class="section-head reveal">
+        <p class="kicker">The path</p>
+        <h2>How to Buy</h2>
+        <p class="lede">Four quiet steps. A wallet, some SOL, and a swap on Solana.</p>
+      </div>
+      <ol class="steps">
+        <li class="plate step reveal">
+          <img src="assets/icons/phantom.svg" alt="" width="48" height="48">
+          <span class="step-no">01</span>
+          <h3>Open Phantom</h3>
+          <p>Install Phantom and create a Solana wallet. Keep the recovery phrase offline.</p>
+        </li>
+        <li class="plate step reveal">
+          <img src="assets/icons/solana.svg" alt="" width="48" height="48">
+          <span class="step-no">02</span>
+          <h3>Add SOL</h3>
+          <p>Fund the wallet with SOL. Leave a little extra for the network fee.</p>
+        </li>
+        <li class="plate step reveal">
+          <img src="assets/icons/pumpswap.svg" alt="" width="48" height="48">
+          <span class="step-no">03</span>
+          <h3>Swap on PumpSwap</h3>
+          <p>Trade SOL for CATANA on PumpSwap. Confirm the token before you sign.</p>
+          <a class="text-link" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">Open PumpSwap</a>
+        </li>
+        <li class="plate step reveal">
+          <img src="assets/icons/dexscreener.svg" alt="" width="48" height="48">
+          <span class="step-no">04</span>
+          <h3>Watch the chart</h3>
+          <p>Follow the Solana pair on DexScreener after the swap lands.</p>
+          <a class="text-link" href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">Open DexScreener</a>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section chart-section" id="chart">
+      <div class="section-head reveal">
+        <p class="kicker">Solana</p>
+        <h2>Chart</h2>
+      </div>
+      <div class="chart-frame reveal">
+        <iframe
+          title="CATANA on DexScreener"
+          src="https://dexscreener.com/solana?embed=1&theme=dark&trades=0&info=0"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="section join" id="join">
+      <div class="section-head reveal">
+        <p class="kicker">The dojo</p>
+        <h2>Join Us</h2>
+        <p class="lede">The banner hangs here. The trail continues on X.</p>
+      </div>
+      <figure class="scroll-hang reveal">
+        <div class="rod" aria-hidden="true"></div>
+        <img class="banner" src="banner.png" alt="cat wif katana banner: samurai kitten, cherry blossoms, a castle, and a gold dusk sky" width="2172" height="724">
+        <div class="rod" aria-hidden="true"></div>
+      </figure>
+      <div class="join-row reveal">
+        <a class="btn btn-gold" href="https://x.com/CatanaCatSol" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/x.svg" alt="" width="16" height="16">
+          CatanaCatSol
+        </a>
+        <a class="btn btn-line" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/pumpswap.svg" alt="" width="22" height="22">
+          PumpSwap
+        </a>
+        <a class="btn btn-line" href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/dexscreener.svg" alt="" width="20" height="20">
+          DexScreener
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="lacing" aria-hidden="true"></div>
+    <div class="footer-inner">
+      <img src="logo.png" alt="" width="56" height="56">
+      <div>
+        <strong>cat wif katana</strong>
+        <span>CATANA on Solana</span>
+      </div>
+      <a href="https://x.com/CatanaCatSol" target="_blank" rel="noopener noreferrer">x.com/CatanaCatSol</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
