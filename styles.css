@@ -592,13 +592,20 @@ h2 {
   background: linear-gradient(180deg, #f8e7b4, #c4923a 42%, #6d4a16 70%, #e7c98a);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.5);
 }
+.banner-frame {
+  width: 100%;
+  aspect-ratio: 3 / 1;
+  margin: 10px 0;
+  border-radius: 6px;
+  overflow: hidden;
+}
 .banner {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 1;
+  height: 100%;
+  max-width: none;
   object-fit: cover;
-  margin: 10px 0;
-  border-radius: 6px;
+  object-position: center;
 }
 .join-row { justify-content: center; }
 
