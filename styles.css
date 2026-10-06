@@ -288,6 +288,47 @@ h1 {
   color: var(--muted);
   font-size: 1.15rem;
 }
+.ca-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  margin-top: 18px;
+  padding: 8px 8px 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(8, 8, 12, 0.55);
+}
+.ca-label {
+  font-family: var(--display);
+  letter-spacing: 0.14em;
+  font-size: 12px;
+  color: var(--gold);
+}
+.ca-bar code {
+  flex: 1;
+  min-width: 0;
+  font-family: "Zen Old Mincho", serif;
+  font-size: 13px;
+  color: var(--paper);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ca-copy {
+  margin-left: auto;
+  flex: 0 0 auto;
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-family: var(--display);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: #1a100c;
+  background: linear-gradient(180deg, #f8e7b4, #e0b34a);
+  cursor: pointer;
+}
+.ca-copy.copied { background: #f0b7c6; }
 .cta-row, .join-row {
   display: flex;
   flex-wrap: wrap;

@@ -6,6 +6,21 @@
   var glow = document.querySelector(".pointer-glow");
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  document.querySelectorAll("[data-copy]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      var value = button.getAttribute("data-copy");
+      navigator.clipboard.writeText(value).then(function () {
+        var previous = button.textContent;
+        button.textContent = "Copied";
+        button.classList.add("copied");
+        setTimeout(function () {
+          button.textContent = previous;
+          button.classList.remove("copied");
+        }, 1400);
+      });
+    });
+  });
+
   toggle.addEventListener("click", function () {
     var open = links.classList.toggle("open");
     toggle.setAttribute("aria-expanded", open ? "true" : "false");
